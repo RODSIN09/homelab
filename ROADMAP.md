@@ -18,7 +18,7 @@ Get the Pi and the repo ready before writing any service.
 - [ ] Create folders on the SSD: `/srv/www`, `/srv/data`, `/srv/logs`, `/srv/backups`
 - [ ] Firewall (nftables or ufw): allow only 22, 80 and 443
 - [ ] Automatic security updates (`unattended-upgrades`)
-- [ ] Fill in `.gitignore` so secrets, `.env` and `.db` files never get committed
+- [x] Fill in `.gitignore` so secrets, `.env` and `.db` files never get committed
 
 > **Learn:** Linux users and permissions, fstab, SSH keys, firewalls.
 > **Security:** this phase *is* security. A Pi with password SSH open to the internet gets brute-forced within hours.

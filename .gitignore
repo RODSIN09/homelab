@@ -1,4 +1,15 @@
 # So here I will add some stuff..
 #
 # C objets and binaries, Rust targets, PlatformIOs .pio/ and Python __pycache__/. I gotta add .env and .db files here too, and ze secrets :D
+# Build output
+target/
 
+# Environment variables
+.env
+.env.*
+
+# Database variables
+.db
+.db.*
+
+# Basic template, not the end template. 
